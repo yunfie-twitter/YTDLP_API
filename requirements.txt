@@ -1,0 +1,40 @@
+# YouTube動画ダウンロードAPI 依存ライブラリ
+
+# Core FastAPI framework
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# YouTube downloading
+yt-dlp
+
+# Async database
+aiosqlite==0.19.0
+
+# File operations
+aiofiles==23.2.1
+
+# HTTP client
+aiohttp==3.9.1
+
+# Audio metadata manipulation
+mutagen==1.47.0
+
+# FFmpeg Python wrapper
+ffmpeg-python==0.2.0
+
+# Data validation
+pydantic==2.5.2
+
+# Standard library modules (no installation needed):
+# - asyncio
+# - sqlite3
+# - logging
+# - pathlib
+# - tempfile
+# - datetime
+# - hashlib
+# - secrets
+# - json
+# - os
+# - subprocess
+# - time
